@@ -1,7 +1,10 @@
-<style>
-   h1 { 
-    font-size: 120%; 
-    font-family: Verdana, Arial, Helvetica, sans-serif; 
-    color: #333366; 
-   }
-  </style>
+@font-face {
+   font-family: 'Prata';
+   src: url("assets/fonts/Prata-Regular.ttf");
+   font-weight: 400;
+ }
+ @font-face {
+   font-family: 'Barlow';
+   src: url("assets/fonts/Barlow-Thin.ttf");
+   font-weight: 300;
+ }
