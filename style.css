@@ -14,45 +14,48 @@
  }
 
  body {
-   min-height: 100vh;
-   margin: 0;
-   padding: 0;
+   font-size: 24px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   min-height: 100vh;
+   max-width: 1024px;
+   margin: 0 auto; 
+   padding: 5px;
+   line-height: 1.5;
  }
 
  .header {
-   font-family: 'Prata';
-   font-style: normal;
-   font-size: 24px;
-   line-height: 20px;
-   text-align: right;
- }
- .cv-photo {
-position: absolute;
-width: 300px;
-height: 300px;
-left: 300px;
-top: 100px;
-border-radius: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #E5E5E5;
  }
 
+ .cv-photo {
+   position: relative;
+   margin: 50px;
+   width: 250px;
+   height: 353px;
+   top: 10px;
+   border-radius: 50px;
+}
+ .name {
+   position: relative;
+   margin: 50px;
+   text-align: center;
+   font-size: 56px;
+   line-height: 10px;
+   font-family: 'Prata';
+   font-style: normal;
+   font-weight: 400;
+}
  .main {
-  
+   background: #E5E5E5;
  }
 
  .footer {
-   
+   background: #E5E5E5;
  }
 
- .title {
-   font-family: 'Prata';
-   font-style: normal;
-   font-size: 24px;
-   line-height: 20px;
-   text-align: right;
-   position: absolute;
-    top: 200px;
-    right: 300px;
- }
+
