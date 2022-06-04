@@ -13,6 +13,10 @@
    box-sizing: border-box;
  }
 
+ html {
+   scroll-behavior: smooth; 
+ }
+
  body {
    font-size: 24px;
    display: flex;
@@ -32,6 +36,33 @@
    background: #E5E5E5;
  }
 
+ .nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+   padding: 0;
+}
+
+.nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+   transition: .3s;
+   
+   
+ }
+
+ .nav-item a{
+   text-decoration: none;
+   font-family: 'Barlow';
+   font-style: normal;
+   color: #202020;
+ }
+
+ .nav-item a:hover {
+   color:#DCDCDC;
+ }
+ 
  .cv-photo {
    position: relative;
    margin: 50px;
