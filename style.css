@@ -33,7 +33,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background: #E5E5E5;
+   
  }
 
  .nav-list {
@@ -48,8 +48,6 @@
    padding: 0 20px;
    line-height: 50px;
    transition: .3s;
-   
-   
  }
 
  .nav-item a{
@@ -62,7 +60,13 @@
  .nav-item a:hover {
    color:#DCDCDC;
  }
- 
+
+.block-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
  .cv-photo {
    position: relative;
    margin: 50px;
@@ -91,12 +95,32 @@
    font-style: normal;
    font-weight: 400;
 }
- .main {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: #E5E5E5;
- }
+
+.section-title {
+  font-family: 'Barlow';
+  font-style: normal;
+  text-align: center;
+  font-size: 36px;
+  line-height: 10px;
+  font-weight: 400;
+}
+
+.block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.section-left {
+  margin-right: 100px;
+}
+
+.section-right {
+  margin-left: 100px;
+}
 
  .footer {
    background: #E5E5E5;
