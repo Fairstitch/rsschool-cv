@@ -9,45 +9,48 @@
    font-weight: 300;
  }
 
- * {
-   box-sizing: border-box;
- }
-
  html {
-   scroll-behavior: smooth; 
+   scroll-behavior: smooth;
  }
 
  body {
-   font-size: 24px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   min-height: 100vh;
-   max-width: 1024px;
-   height: auto;
-   margin: 0 auto; 
-   padding: 5px;
-   line-height: 1.5;
+  margin: 0 auto;
+  font-size: 24px;
+  min-height: 100vh;
+  width: 1100px;
  }
 
- .header {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px 30px 0px;
  }
+
+ main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 20px 0px 30px 0px;
+ }
+
+ .content {
+  width: 50%;
+  margin: auto;            
+}
 
  .nav-list {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   list-style: none;
-   padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .nav-link {
-   padding: 0 20px;
-   line-height: 50px;
+   padding: 10px;
    transition: .3s;
  }
 
@@ -55,6 +58,7 @@
    text-decoration: none;
    font-family: 'Barlow';
    font-style: normal;
+   white-space: nowrap;
    color: #202020;
  }
 
@@ -63,35 +67,34 @@
  }
 
 .block-title {
-  position: relative;
   display: flex;
+  position: relative;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-    background: #E5E5E5;
   }
 
  .cv-photo {
-   margin: 50px;
-   width: 250px;
-   height: 353px;
-   top: 10px;
    border-radius: 50px;
+   margin-left: 30px;
 }
+
  .name {
+   font-family: 'Prata';
+   font-style: normal;
    font-size: 56px;
    line-height: 10px;
-   font-family: 'Prata';
-   font-style: normal;
    font-weight: 400;
+   margin-right: 30px;
 }
+
 .name2 {
    font-size: 24px;
-   line-height: 40px;
-   font-family: 'Prata';
-   font-style: normal;
    font-weight: 400;
+}
+
+.block {
+  display: flex;
+  position: relative;
+  flex-direction: row;
 }
 
 .section-title {
@@ -99,40 +102,26 @@
   font-style: normal;
   text-align: center;
   font-size: 42px;
-  line-height: 10px;
   font-weight: 400;
-  margin-bottom: 50px;
-}
-
-.block {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 .section-left {
-  width: 512px;
-  min-height: 100vh;
-  background: #E5E5E5;
+  width: 550px;
 }
 
 .section-right {
-  width: 512px;
-  min-height: 100vh;
-  background: #E5E5E5;
+  width: 550px;
 }
 
 .text-left {
   font-family: 'Barlow';
   font-style: normal;
   text-align: left;
-  font-size: 24px;
   line-height: 10px;
-  font-weight: 600;
-  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .text-right {
@@ -140,9 +129,8 @@
   font-style: normal;
   text-align: left;
   font-size: 24px;
-  line-height: 40px;
-  font-weight: 600;
-  margin-bottom: 50px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .link-item a{
@@ -156,11 +144,16 @@
   color:#DCDCDC;
 }
 
-.skills-item {
-  position: relative;
-  font-family: 'Barlow';
-  margin-bottom: 30px;
-  padding-left: 0px;
+.skills {
+  line-height: 30px;
+}
+
+.edu {
+line-height: 5px;
+}
+
+.lang {
+line-height: 5px;
 }
 
 .code-text {
@@ -179,8 +172,6 @@
   font-family: Courier, monospace;
   text-align: left;
 }
-
-
 
  .footer {
    background: #E5E5E5;
