@@ -80,10 +80,12 @@
  .name {
    font-family: 'Prata';
    font-style: normal;
+   text-align: center;
    font-size: 56px;
-   line-height: 10px;
+   line-height: 70px;
    font-weight: 400;
    margin-right: 30px;
+   margin-top: 70px;
 }
 
 .name2 {
