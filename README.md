@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Fairstitch.github.io/rsschool-cv/
