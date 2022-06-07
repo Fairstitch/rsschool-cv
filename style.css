@@ -93,7 +93,7 @@
    font-weight: 400;
 }
 
-.block {
+.block-content {
   display: flex;
   position: relative;
   flex-direction: row;
